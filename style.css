@@ -1481,7 +1481,7 @@ p {
 /*===== latest-news-area =====*/
 .latest-news-area {
   background: var(--white);
-  padding: 100px 0;
+  padding: 100px 0 0 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .latest-news-area {
@@ -1775,7 +1775,7 @@ p {
 
 /* Footer eleven css */
 .footer-eleven {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
   background-color: var(--white);
   position: relative;
@@ -1822,6 +1822,9 @@ p {
 .footer-eleven .f-about .copyright-text {
   color: var(--dark-3);
   margin-top: 40px;
+}
+.center{
+  margin: 0 auto;
 }
 .footer-eleven .f-about .copyright-text span {
   display: block;
