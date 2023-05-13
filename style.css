@@ -372,19 +372,6 @@ p {
   color: var(--dark-3);
 }
 
-.made-in-ayroui{
-  position: fixed;
-  left: 5px;
-  bottom: 5px;
-  z-index: 999;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-.made-in-ayroui:hover{
-  transform: translateY(-5px);
-}
-
 
 /*===========================
   NAVBAR css 
@@ -1908,3 +1895,27 @@ p {
   color: var(--white);
   background-color: var(--primary-dark);
 }
+
+.made-in-ayroui{
+  position: fixed;
+  left: 5px;
+  bottom: 5px;
+  z-index: 998;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.made-in-ayroui:hover{
+  transform: translateY(-5px);
+}
+
+#myBtn {
+
+  z-index: 999; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgba(255, 255, 255, 0);
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+}
+
